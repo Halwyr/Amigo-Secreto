@@ -1,6 +1,6 @@
 /* Ajuste para celulares */
 
-@media (max-width: 480px) {
+@media (max-width: 728px) {
 
   .content {
 
@@ -14,10 +14,10 @@
 
   .page__image {
 
-    width: 50%; 
+    width: 30%; 
     position: absolute;
-    left: 50%;
-    top: 10%;
+    left: 70%;
+    margin-top: 8em;
   }
 
   .form {
@@ -392,7 +392,7 @@ body {
 }
 
 .popup-overlay.show {
-  
+
   display: block; 
   opacity: 1;
 }
