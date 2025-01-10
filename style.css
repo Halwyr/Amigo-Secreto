@@ -1,46 +1,36 @@
 /* Ajuste para celulares */
 
 @media (max-width: 480px) {
- 
+
+  
   .content {
 
-    width: 90%;
-    padding: 20px;
+    width: 90%; 
     height: auto;
-  }
-
-  .page__image {
-
-    width: 60%;
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+    padding: 16px;
+    margin-top: 20px; 
   }
 
   
-  .form__input,
-  .friends__container,
-  .form__buttons {
+  .page__image {
 
-    width: 100%;
-    max-width: 100%;
+    width: 80%; 
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
   }
 
- 
-  .section__title {
-
-    font-size: 48px; 
-  }
-
-  .form__label,
+  
   .form__input {
 
-    font-size: 16px; 
+    width: 100%; 
+    max-width: 100%;
+    font-size: 18px;
+    padding: 10px;
   }
 
-  .friends__title,
-  .prizeDraw__title {
+  .form__label {
 
     font-size: 18px;
   }
@@ -48,42 +38,87 @@
   .form__buttons {
 
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
     align-items: center;
   }
+
 
   .button {
 
     width: 100%;
-    font-size: 20px;
+    font-size: 18px; 
+    padding: 12px 24px; 
   }
 
   .button-fechar {
 
-    padding: 12px 16px;
-    font-size: 14px;
+    font-size: 14px; 
+    padding: 10px 16px;
   }
 
-  .section--results {
+  .section__title {
 
-    flex-direction: column;
-    gap: 24px;
+    font-size: 32px; 
+    margin-bottom: 40px; 
   }
 
+  .friends__title, .prizeDraw__title {
+
+    font-size: 20px; 
+  }
+
+ 
   .popup {
 
-    width: 80%; 
+    width: 90%; 
+    max-width: 300px; 
   }
 
+ 
   .content__corner-rectangle {
 
-    width: 80%;
-    right: 10px;
+    width: 80%; 
+    right: 10px; 
   }
 
+  
   .background__detail {
 
     height: auto;
+  }
+
+ 
+  .friends__container {
+
+    width: 100%;
+    padding: 16px;
+  }
+
+  .friends__container > p {
+
+    font-size: 18px; 
+  }
+
+  
+  .form__link {
+
+    font-size: 14px; 
+  }
+
+  .button-fechar:focus {
+
+    outline: none; 
+  }
+
+
+  .popup-overlay {
+
+    display: none;
+  }
+
+  .popup-overlay.show {
+    
+    display: block; 
   }
 }
 
@@ -400,7 +435,7 @@ body {
 
 
 @media (max-width: 480px) {
-  
+
   .popup {
     width: 90%;
     max-width: 300px;
