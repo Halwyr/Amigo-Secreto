@@ -22,4 +22,5 @@ Troca de alerts por pop-up para melhor visibildade das mensagens;
 Tecnologias Utilizadas:
 
 Lógica de Programação: O projeto utiliza estruturas básicas de controle (laços, condições, etc.).
+
 JavaScript: A linguagem de programação escolhida para a implementação do sorteador.
