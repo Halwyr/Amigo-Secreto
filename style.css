@@ -1,10 +1,101 @@
+/* Ajuste para celulares */
+
+@media (max-width: 480px) {
+ 
+  .content {
+
+    width: 90%;
+    padding: 20px;
+    height: auto;
+  }
+
+  .page__image {
+
+    width: 60%;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  
+  .form__input,
+  .friends__container,
+  .form__buttons {
+
+    width: 100%;
+    max-width: 100%;
+  }
+
+ 
+  .section__title {
+
+    font-size: 48px; 
+  }
+
+  .form__label,
+  .form__input {
+
+    font-size: 16px; 
+  }
+
+  .friends__title,
+  .prizeDraw__title {
+
+    font-size: 18px;
+  }
+
+  .form__buttons {
+
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .button {
+
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .button-fechar {
+
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+
+  .section--results {
+
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .popup {
+
+    width: 80%; 
+  }
+
+  .content__corner-rectangle {
+
+    width: 80%;
+    right: 10px;
+  }
+
+  .background__detail {
+
+    height: auto;
+  }
+}
+
 body {
+
   background: #000;
   min-height: 100vh;
   position: relative;
 }
 
 .background__detail {
+
   background-color: #00f4bf;
   height: calc(100% - 389px);
   left: 0;
@@ -15,6 +106,7 @@ body {
 }
 
 .button {
+
   align-items: center;
   background-color: transparent;
   border: none;
@@ -35,6 +127,7 @@ body {
 }
 
 .content {
+
   background-color: #000;
   border: 1px solid #1875e8;
   filter: drop-shadow(0px 0px 30px #1875e8);
@@ -49,6 +142,7 @@ body {
 }
 
 .content__corner-rectangle {
+
   background-color: #00f4bf;
   bottom: -15px;
   clip-path: polygon(0% 100%, 0% 50%, 4% 0%, 100% 0%, 100% 50%, 96% 100%);
@@ -60,6 +154,7 @@ body {
 }
 
 .content__main {
+
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -68,6 +163,7 @@ body {
 }
 
 .friends__container {
+
   align-items: center;
   border: 1px solid #1875e8;
   border-radius: 8px;
@@ -83,6 +179,7 @@ body {
 }
 
 .friends__container > p {
+
   color: #fff;
   font-size: 21px;
   font-weight: 400;
@@ -90,6 +187,7 @@ body {
 }
 
 .friends__title {
+
   color: #1875e8;
   font-size: 24px;
   font-weight: 700;
@@ -97,6 +195,7 @@ body {
 }
 
 .form {
+
   display: flex;
   flex-direction: column;
   font-family: Inter;
@@ -104,12 +203,14 @@ body {
 }
 
 .form__buttons {
+
   align-items: center;
   display: flex;
   gap: 32px;
 }
 
 .form__input {
+
   align-items: center;
   background-color: transparent;
   border: 1px solid #1875e8;
@@ -126,11 +227,13 @@ body {
 }
 
 .form__input::placeholder {
+
   color: #fff;
   font-size: 21px;
 }
 
 .form__label {
+
   color: #1875e8;
   font-size: 24px;
   font-weight: 700;
@@ -153,6 +256,7 @@ body {
 }
 
 .page__image {
+
   position: absolute;
   right: 0;
   top: 76px;
@@ -161,6 +265,7 @@ body {
 }
 
 .prizeDraw__container {
+
   color: #fff;
   font-size: 21px;
   font-style: italic;
@@ -171,6 +276,7 @@ body {
 }
 
 .prizeDraw__title {
+
   color: #00f4bf;
   font-size: 24px;
   font-weight: 700;
@@ -178,11 +284,13 @@ body {
 }
 
 .primary {
+
   background-color: #1875e8;
   color: #fff;
 }
 
 .section--results {
+
   align-items: start;
   display: flex;
   font-family: Inter;
@@ -191,6 +299,7 @@ body {
 }
 
 .section__title {
+
   color: #fff;
   font-family: Chakra Petch;
   font-size: 88px;
@@ -201,16 +310,19 @@ body {
 }
 
 .section__title > span {
+
   color: #1875e8;
 }
 
 .secondary {
+
   background-color: #fff;
   color: #1875e8;
 }
 
 
 .popup {
+
   position: fixed;
   top: 50%;
   left: 50%;
@@ -230,6 +342,7 @@ body {
 }
 
 .button-fechar {
+
   color: white;
   background-color: #ff4c4c; 
   border: none;
@@ -244,16 +357,19 @@ body {
 }
 
 .button-fechar:hover {
+
   background-color: #ff3333; 
   transform: scale(1.05); 
 }
 
 .button-fechar:focus {
+
   outline: none; 
   box-shadow: 0 0 0 3px rgba(255, 76, 76, 0.5); 
 }
 
 .popup.show {
+
   visibility: visible;
   opacity: 1;
   transform: translate(-50%, -50%) scale(1);
@@ -262,6 +378,7 @@ body {
 
 
 .popup-overlay {
+
   display: none; 
   position: fixed;
   top: 0;
@@ -276,12 +393,14 @@ body {
 
 
 .popup-overlay.show {
+
   display: block; 
   opacity: 1;
 }
 
 
 @media (max-width: 480px) {
+  
   .popup {
     width: 90%;
     max-width: 300px;
