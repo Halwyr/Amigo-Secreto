@@ -30,10 +30,10 @@ O **Sorteador de Amigo Secreto** é um programa interativo que recebe uma lista 
 ## 💁️‍♀️ **Estrutura de Arquivos:**  
 ```bash
 📆 projeto-sorteador-amigo-secreto
-├── índice.html
-├── estilo.css
+├── index.html
+├── style.css
 ├── readme.md
-├── ativos/
+├── assets/
 └── js/
 ```
 Desenvolvido com foco em aprendizado e diversão 🚀
