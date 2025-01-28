@@ -1,28 +1,39 @@
-Descrição:
+# 🎁 Sorteador de Amigo Secreto
 
-O Sorteador de Amigo Secreto é um programa que recebe uma lista de nomes e realiza o sorteio, atribuindo a cada participante uma pessoa para quem deverá comprar um presente. O sorteio é realizado de forma aleatória e sem repetições, ou seja, nenhum participante poderá sortear a si mesmo.
+O **Sorteador de Amigo Secreto** é um programa interativo que recebe uma lista de nomes e realiza um sorteio aleatório, atribuindo a cada participante uma pessoa para quem deverá comprar um presente. O sorteio é realizado sem repetições e garante que nenhum participante sorteie a si mesmo.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Funcionalidades:
+---
 
-Recebe uma lista de nomes dos participantes;
-Sorteia os pares de amigo secreto aleatoriamente;
-Exibe o resultado com os pares sorteados;
-Não permite que um participante se sorteie para si mesmo;
-Não aceita valores nulos;
-Não aceita nomes iguais;
-Não aceita menos de 4 participantes;
+## 📉 **Funcionalidades:**
+- Recebe uma lista de nomes dos participantes.
+- Sorteia os pares de amigo secreto aleatoriamente.
+- Exibe o resultado com os pares sorteados.
+- Garante que nenhum participante se sorteie para si mesmo.
+- Validações importantes:
+  - **Não permite valores nulos.**
+  - **Não aceita nomes duplicados.**
+  - **Requer no mínimo 4 participantes.**
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Adições Extra:
+---
 
-Troca de alerts por pop-up para melhor visibildade das mensagens;
+## ✨ **Melhorias Implementadas:**
+- Substituição de alerts tradicionais por pop-ups modernos para uma melhor experiência do usuário.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Tecnologias Utilizadas:
+---
 
-Lógica de Programação: O projeto utiliza estruturas básicas de controle (laços, condições, etc.).
+## 🧩 **Tecnologias Utilizadas:**
+- **Lógica de Programação:** Estruturas básicas de controle, como laços e condições.
+- **JavaScript:** Linguagem de programação utilizada para implementar o sorteador e as funcionalidades interativas.
 
-JavaScript: A linguagem de programação escolhida para a implementação do sorteador.
+---
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 💁️‍♀️ **Estrutura de Arquivos:**  
+```bash
+📆 projeto-sorteador-amigo-secreto
+├── índice.html
+├── estilo.css
+├── readme.md
+├── ativos/
+└── js/
+```
+Desenvolvido com foco em aprendizado e diversão 🚀
