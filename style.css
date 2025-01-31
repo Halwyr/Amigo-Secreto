@@ -264,6 +264,9 @@ body {
   top: 76px;
   z-index: 2;
   pointer-events: none;
+  width: 30%;
+  margin-top: 10%;
+  margin-right: 10%;
 }
 
 .prizeDraw__container {
